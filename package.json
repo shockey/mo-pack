@@ -1,9 +1,9 @@
 {
-  "name": "mocha-webpack",
   "version": "1.1.0",
+  "name": "mo-pack",
   "description": "mocha cli with webpack support",
   "bin": {
-    "mocha-webpack": "./bin/mocha-webpack"
+    "mo-pack": "./bin/mo-pack"
   },
   "main": "./lib/createMochaWebpack.js",
   "files": [
@@ -32,16 +32,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/zinserjan/mocha-webpack"
+    "url": "https://github.com/shockey/mo-pack"
   },
   "bugs": {
-    "url": "https://github.com/zinserjan/mocha-webpack/issues"
+    "url": "https://github.com/shockey/mo-pack/issues"
   },
   "keywords": [
     "webpack",
     "mocha"
   ],
-  "author": "Jan-André Zinser",
   "license": "MIT",
   "peerDependencies": {
     "mocha": ">=2.4.5 <=5",
