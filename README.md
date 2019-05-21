@@ -1,4 +1,15 @@
-# mocha-webpack [![npm package][npm-badge]][npm]  [![Build Status Linux][build-badge]][build] [![Build Status Windows][build-badge-windows]][build-windows] [![codecov][codecov-badge]][codecov]
+# @kyleshockey/mocha-webpack
+
+`@kyleshockey/mocha-webpack` is a fork of [mocha-webpack](https://github.com/zinserjan/mocha-webpack). Here's what you should know:
+
+* Our first version is `1.1.0`, which is identical to `mocha-webpack@1.1.0`.
+* `mocha-webpack`'s 2.x development when it was abandoned was published as `@kyleshockey/mocha-webpack@2.0.0`.<br><br>
+* We consider changes in supported mocha/webpack versions to be breaking changes.
+    * Our 1.x series will never drop support for Webpack 2/3 or Mocha 4/5
+* Our 1.x series is in maintenance, but will still receive security updates.
+    * (this fork was initially created to address [CVE-2018-20834](https://nvd.nist.gov/vuln/detail/CVE-2018-20834))
+
+---
 
 > mocha test runner with integrated webpack precompiler
 
