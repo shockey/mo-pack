@@ -1,8 +1,0 @@
-{
-  "colors": true,
-  "webpackConfig": "webpack.config-test.js",
-  "glob": "*.test.js",
-  "files": [
-    "test/**/.js"
-  ]
-}
