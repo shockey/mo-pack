@@ -1,9 +1,9 @@
 {
-  "name": "mo-pack",
+  "name": "@kyleshockey/mocha-webpack",
   "version": "2.0.0-beta.0",
   "description": "mocha cli with webpack support",
   "bin": {
-    "mo-pack": "./bin/mo-pack"
+    "mocha-webpack": "./bin/mocha-webpack"
   },
   "main": "./lib/createMochaWebpack.js",
   "files": [
@@ -32,10 +32,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/shockey/mo-pack"
+    "url": "https://github.com/shockey/mocha-webpack"
   },
   "bugs": {
-    "url": "https://github.com/shockey/mo-pack/issues"
+    "url": "https://github.com/shockey/mocha-webpack/issues"
   },
   "keywords": [
     "webpack",
